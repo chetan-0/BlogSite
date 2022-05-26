@@ -34,3 +34,7 @@
 .preview:hover{
   border-bottom: 2px solid red;
 }
+.delbtn{
+  color:blue;
+  border-radius: 5px;
+}

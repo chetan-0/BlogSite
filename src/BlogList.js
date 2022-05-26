@@ -1,6 +1,6 @@
 const blogComponent = (props) => {
     const blogs=props.blogs;
-    const delBlog=props.del;
+    // const delBlog=props.del;
     return ( 
         <div className="blogcomponent">
         {blogs.map((blog)=>(
@@ -8,7 +8,7 @@ const blogComponent = (props) => {
                 <h2>{blog.title}</h2>
                 <p>Authored by {blog.author}</p>
                 <p>{blog.body}</p>
-                <button onClick={()=>delBlog(blog.id)}>Delete Blog</button>
+                {/* <button type="button" classsName="delbtn" onClick={()=>delBlog(blog.id)}>Delete Blog</button> */}
             </div>
         ))}
         </div>

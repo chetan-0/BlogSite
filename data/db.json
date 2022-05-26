@@ -1,0 +1,16 @@
+{
+    "blogs":[
+        {
+            "title":"good blog",
+            "body":"asdfas asdfj asdfa sdfoa sdfas dfasd fkag ae;rg jaoid foasidh aodish aosduh asdh dfiugha ua hfgiuadh saud gadufg hauisdf adfugh avsdif ad",
+            "author":"a",
+            "id":1
+        },
+        {
+            "title":"second blog",
+            "body":"23 24 234 2413 1rg jaoid foasidh aodish aosduh asdh dfiugha ua hfgiuadh saud gadufg hauisdf adfugh avsdif ad",
+            "author":"b",
+            "id":2
+        }
+    ]
+}
