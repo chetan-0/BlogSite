@@ -5,8 +5,8 @@ const blogComponent = (props) => {
         <div className="blogcomponent">
         {blogs.map((blog)=>(
             <div className="preview" key={blog.id}>
-                <h2>{blog.title}</h2>
-                <p>Authored by {blog.author}</p>
+                <h1>{blog.title}</h1>
+                <p><b>Authored by {blog.author}</b></p>
                 <p>{blog.body}</p>
                 {/* <button type="button" classsName="delbtn" onClick={()=>delBlog(blog.id)}>Delete Blog</button> */}
             </div>
