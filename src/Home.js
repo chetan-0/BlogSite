@@ -15,7 +15,7 @@ const Home = () => {
             {error && <div>{error}</div>}
             {Loading && <div>Loading...</div>}
             {blogs &&<BlogList blogs={blogs}/>}
-            {/* <button onClick={()=>setA('car')}>click me</button> */}
+            {/* <button type="button" class="btn btn-info">Info</button> */}
         </div>
     );
             }
