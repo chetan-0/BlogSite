@@ -28,7 +28,6 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-  max-width: 600px;
 }
 
 .preview:hover{
@@ -39,6 +38,23 @@
   border-radius: 5px;
 }
 
-.preview{
-  padding:20px;
+.preview a{
+  padding: 20px;
+  text-decoration: none;
+}
+
+.blog-details h1{
+  margin:40px 40px 0px 40px;
+  max-width: 600px;
+}
+.blog-details h5{
+  /* margin-top:10px;
+  margin-left:40px;
+  max-width: 600px; */
+  max-width: 600px;
+  margin: 0px 40px  ;
+}
+.blog-details p{
+  max-width: 600px;
+  margin:40px;
 }

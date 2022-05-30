@@ -1,7 +1,7 @@
-const new = () => {
+const NewBlog = () => {
     return ( 
         <div className="new">Add new Blogs</div>
      );
 }
  
-export default new;
+export default NewBlog;
