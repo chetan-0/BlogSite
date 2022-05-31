@@ -1,13 +1,24 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
+import (useHistory)
 const NewBlog = () => {
 
     const [title,setTitle]=useState("");
     const [author,setAuthor]=useState("John");
     const [body,setBody]=useState("");
+    const history = useHistory();
     const sub=(e)=>{
         e.preventDefault();
         const newblog={title,author,body}
-        
+        fetch('http://localhost:8000/blogs',{
+            method:'POST',
+            headers:{"content-Type":"application/json"},
+            body:JSON.stringify(newblog)
+        }).then(()=>{
+            console.log('added')
+            // history.go(-1)
+            history.push('/')
+        })
     }
     return ( 
         <div className="create">
