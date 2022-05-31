@@ -10,7 +10,7 @@ const blogComponent = (props) => {
                 <Link to={`/blogs/${blog.id}`}>
                 <h1>{blog.title}</h1>
             </Link>
-                <p><b>Authored by {blog.author}</b></p>
+                <p><b>Authored by - {blog.author}</b></p>
                 <p>{blog.body}</p>
                 {/* <button type="button" classsName="delbtn" onClick={()=>delBlog(blog.id)}>Delete Blog</button> */}
             </div>
